@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'inconsolata';
+    src: url('fonts/inconsolata-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('fonts/inconsolata-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}  
+
+body {
+    margin: 0;
+    background-color: rgb(31, 30, 30);
+    box-sizing: border-box;
+    font-family: Inconsolata;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+input {
+    padding: 10px;
+    background-color: rgb(26, 23, 23);  
+    text-decoration: none;
+    font-family: Inconsolata;
+    border: 2px solid rgb(44, 40, 40);
+    color: rgb(156, 133, 133);
+    font-size: 120%;
+    padding:15px 195px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.horizontalFlex {
+    display: flex;
+    align-items: normal;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}
+
+.linkList1 {
+    color:lightsalmon;
+    padding:0px 30px 60px 30px;
+    background-color: rgb(26, 23, 23);
+    margin: 20px;
+    border: 2px solid rgb(44, 40, 40);
+}
+
+.linkList2 {
+    color:rgb(122, 255, 226);
+    padding:0px 30px 60px 30px;
+    background-color: rgb(26, 23, 23);  
+    margin:20px;
+    border: 2px solid rgb(44, 40, 40);  
+}
+
+.linkList3 {
+    color:rgb(255, 122, 255);
+    padding:0px 30px 60px 30px;
+    background-color: rgb(26, 23, 23);  
+    margin:20px;
+    border: 2px solid rgb(44, 40, 40);  
+}
+
+.linkList4 {
+    color:rgb(255, 179, 186);
+    padding:0px 30px 60px 30px;
+    background-color: rgb(26, 23, 23);  
+    margin:20px;
+    border: 2px solid rgb(44, 40, 40);  
+}
+
+.linkList5 {
+    color:rgb(179, 255, 186);
+    padding:0px 30px 60px 30px;
+    background-color: rgb(26, 23, 23);  
+    margin:20px;
+    border: 2px solid rgb(44, 40, 40);  
+}
+
+.linkList6 {
+    color:rgb(186, 179, 255);
+    padding:0px 30px 60px 30px;
+    background-color: rgb(26, 23, 23);  
+    margin:20px;
+    border: 2px solid rgb(44, 40, 40);  
+}
+
+.folder {
+    color:rgb(163, 136, 66)
+}
+
